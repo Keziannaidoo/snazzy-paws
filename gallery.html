@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Snazzy Paws</title>
+  <link rel="stylesheet" href="styles.min.css" />
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      padding: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .gallery {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Snazzy Paws Grooming</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Our Happy Clients</h2>
+    <div class="gallery">
+      <img src="images/dog1.jpg" alt="Groomed dog 1" />
+      <img src="images/dog1.jpg" alt="Groomed dog 2" />
+      <img src="images/dog1.jpg" alt="Groomed dog 3" />
+      <img src="images/dog1.jpg" alt="Groomed dog 4" />
+      <img src="images/dog1.jpg" alt="Groomed dog 5" />
+      <img src="images/dog1.jpg" alt="Groomed dog 6" />
+      <img src="images/dog1.jpg" alt="Groomed dog 7" />
+      <img src="images/dog1.jpg" alt="Groomed dog 8" />
+      <img src="images/dog1.jpg" alt="Groomed dog 9" />
+      <img src="images/dog1.jpg" alt="Groomed dog 10" />
+      <img src="images/dog1.jpg" alt="Groomed dog 11" />
+      <img src="images/dog1.jpg" alt="Groomed dog 12" />
+    </div>
+  </section>
+
+  <footer>
+    <p>Snazzy Paws Grooming — Open Monday to Saturday, 9am to 5pm</p>
+  </footer>
+</body>
+</html>
